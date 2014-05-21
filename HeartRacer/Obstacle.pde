@@ -8,7 +8,7 @@ class Obstacle
   int alpha = 255;
   Obstacle(int _x, int _y)
   {
-    radius = (int)random(4, 8);
+    radius = (int)random(6, 10);
 
     x = _x;
     y = _y;

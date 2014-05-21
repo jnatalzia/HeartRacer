@@ -138,7 +138,7 @@ void playingDraw()
   float rand = random(0, 100);
   float chance = 20.0 * (BPM/60.0) * score/1000.0;
   
-  println(chance);
+  //println(chance);
   
   if (chance > 75) chance = 75;
   
